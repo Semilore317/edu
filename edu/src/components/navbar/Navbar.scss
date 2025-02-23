@@ -1,1 +1,26 @@
 @import "../../styles/mixins";
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  align-items: center;
+  //background: #424345;
+  padding-block: 0.6rem;
+  position: fixed;
+
+  img{
+    width: 10rem;
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #d2d2d2;
+    text-decoration: none;
+    list-style: none;
+  }
+}

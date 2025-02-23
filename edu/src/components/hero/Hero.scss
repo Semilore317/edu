@@ -1,0 +1,55 @@
+@import "../../styles/mixins";
+@import "../../index";
+
+.hero{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background: url("../../assets/hero.png");
+  position: absolute;
+  z-index: -1;
+  top: 0;
+
+  &::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 0, 120, 0.6);
+  }
+
+  &__container{
+    z-index: 2;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 1rem;
+
+    h1{
+      font-family: "Outfit", sans-serif;
+      font-size: 4rem;
+      font-weight: 500;
+      line-height: 5rem;
+    }
+
+  }
+
+  &__btn{
+    @extend .btn;
+    padding: 0.6rem;
+  }
+}
+
+
+.scrolled{
+  background: rgba(0, 0, 225, 0.8);
+}
