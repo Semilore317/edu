@@ -7,9 +7,9 @@ nav{
   top: 0;
   left: 0;
   align-items: center;
-  //background: #424345;
   padding-block: 0.6rem;
   position: fixed;
+  z-index: 3;
 
   img{
     width: 10rem;

@@ -1,2 +1,47 @@
 @import "../../index";
 @import "../../styles/mixins";
+
+.program{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  //justify-content: space-around;
+  align-items: center;
+  padding-block: 2rem;
+  &__container{
+    width: 70%;
+    height: 40rem;
+    //display: grid;
+    //grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    div{
+      width: 60%;
+      display: flex;
+      align-items: center;
+      border-radius: 2rem;
+      img{
+        width: 25rem;
+        height: auto;
+        border-radius: 2rem;
+      }
+    }
+  }
+
+  &__right_container{
+    display: flex;
+  }
+
+  h3{
+    color: blue;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  h1{
+    color: var(--black);
+    font-weight: bold;
+  }
+}

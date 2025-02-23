@@ -10,7 +10,7 @@
   text-align: center;
 
   background: url("../../assets/hero.png");
-  position: absolute;
+  //position: absolute;
   z-index: -1;
   top: 0;
 
@@ -51,5 +51,6 @@
 
 
 .scrolled{
-  background: rgba(0, 0, 225, 0.8);
+  background: #212ea0;
+  transition: 0.3s ease in;
 }
