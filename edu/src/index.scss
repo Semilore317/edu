@@ -41,6 +41,8 @@
   --black: #151515;
   --eerie-black: #1b1b1b;
   --black-olive: #383f3e;
+  --blue: #212ea0;
+  --dark-blue: #000f38;
 }
 
 *, *::before, *::after{
@@ -61,6 +63,7 @@ body{
   overflow-x: hidden;
   line-height: 1.5;
   font-family: "Lato", sans-serif;
+  margin: 0 auto;
 }
 
 img{

@@ -15,12 +15,12 @@
 
 @mixin respond ($breakpoint){
   @if $breakpoint == phone {
-    @media only screen and (max-width: 37.5em){
+    @media only screen and (max-width: 41.25em){
       @content;
     } //600px
 
   } @else if $breakpoint == tablet-portrait {
-    @media only screen and (max-width: 56.25em){
+    @media only screen and (max-width: 50em){
       @content;
     } //900px
 

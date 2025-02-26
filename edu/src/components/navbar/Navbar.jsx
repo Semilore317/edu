@@ -5,6 +5,11 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
 
+    const navUl = document.querySelector("ul");
+    const toggleNav = () =>{
+        navUl.classList.toggle("active");
+    }
+
     useEffect(() => {
         const handleScroll = () => {
             setScrolled(window.scrollY > 50);
@@ -16,7 +21,11 @@ const Navbar = () => {
 
     return (
         <nav className={scrolled ? "navbar scrolled" : "navbar"}>
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo"/>
+
+            <div>
+                <img onClick={toggleNav} src="src/assets/menu-icon.png" className="menu-btn" alt="navbar icon"/>
+            </div>
 
             <ul>
                 <li>Home</li>
