@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "./Program.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -17,13 +17,13 @@ const Program = () => {
 
                 <div className="program__container">
                     <div className="div__img_1">
-                        <img src="src/assets/program-1.png" alt="Program 1"/>
+                        <img src="/src/assets/program-1.png" alt="Program 1"/>
                     </div>
                     <div className="div__img_2">
-                        <img src="src/assets/program-2.png" alt="Program 2"/>
+                        <img src="/src/assets/program-2.png" alt="Program 2"/>
                     </div>
                     <div className="div__img_3">
-                        <img src="src/assets/program-3.png" alt="Program 3"/>
+                        <img src="/src/assets/program-3.png" alt="Program 3"/>
                     </div>
                 </div>
 
@@ -35,14 +35,14 @@ const Program = () => {
             {/* Assign ref for smooth scrolling to the About section */}
             <section className="about" data-aos="fade-right">
                 <div className="about__left">
-                    <img src="src/assets/about.png" alt="About University"/>
+                    <img src="/src/assets/about.png" alt="About University"/>
                 </div>
 
                 <div className="about__right">
                     <h3>ABOUT UNIVERSITY</h3>
-                    <h1>Nurturing Tomorrow's Leaders Today</h1>
+                    <h1>Nurturing Tomorrow&apos;s Leaders Today</h1>
                     <p>
-                        Embark on a transformative educational journey with our university's comprehensive education programs.
+                        Embark on a transformative educational journey with our university&apos;s comprehensive education programs.
                         Our cutting-edge curriculum is designed to empower students with the knowledge, skills,
                         and experiences needed to excel in the dynamic field of education. <br/>
                         With a focus on innovation, hands-on learning, and personalized mentorship,
