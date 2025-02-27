@@ -22,7 +22,16 @@ nav{
     color: #d2d2d2;
     text-decoration: none;
     list-style: none;
-
+    a{
+      text-transform: none;
+    }
+    li{
+      cursor: pointer;
+      transition: all 1s;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
     @include respond(phone){
       display: none;
     }
@@ -42,4 +51,9 @@ nav{
 
 .active{
   display: flex;
+}
+
+#nav__btn{
+  padding-block: 0.4rem;
+  padding-inline: 0.8rem;
 }

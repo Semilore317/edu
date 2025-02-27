@@ -92,7 +92,8 @@ h1, h2, h3, h4, h5, h6, p{
 
 .btn{
   background: var(--cultured);
-  padding: 0.6rem;
+  padding-inline: 0.6rem;
+  padding-block: 0.5rem;
   color: var(--black) !important;
   border-radius: 999rem;
   font-size: 1.1rem;

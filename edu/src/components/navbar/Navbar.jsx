@@ -28,12 +28,24 @@ const Navbar = () => {
             </div>
 
             <ul>
-                <li>Home</li>
-                <li>Program</li>
-                <li>About Us</li>
-                <li>Campus</li>
-                <li>Testimonials</li>
-                <li className="btn">Contact Us</li>
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>Program</li>
+                </a>
+                <a href="">
+                    <li>About Us</li>
+                </a>
+                <a href="">
+                    <li>Campus</li>
+                </a>
+                <a href="">
+                    <li>Testimonials</li>
+                </a>
+                <a href="">
+                    <li className="btn" id="nav__btn">Contact Us</li>
+                </a>
             </ul>
         </nav>
     );
