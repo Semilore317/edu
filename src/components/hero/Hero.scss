@@ -1,5 +1,5 @@
-@import "../../styles/mixins";
-@import "../../index";
+@use "../../styles/mixins" as *;
+@use "../../index" as *;
 
 .hero{
   width: 100%;
