@@ -45,7 +45,8 @@
 
   &__btn{
     @extend .btn;
-    padding: 0.6rem;
+    padding-inline: 5rem;
+    background: var(--cultured);
   }
 }
 
