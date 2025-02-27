@@ -108,4 +108,9 @@
     flex-direction: column-reverse;
     padding-inline: 2rem;
   }
+
+  @include respond(tablet-landscape){
+    flex-direction: column-reverse;
+    padding-inline: 5rem;
+  }
 }

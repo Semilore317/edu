@@ -5,6 +5,7 @@ import Hero from "./components/hero/Hero";
 import Program from "./components/program/Program";
 import Gallery from "./components/gallery/Gallery";
 import Testimonial from "./components/testimonial/Testimonial";
+import Contact from "./components/contact/Contact";
 
 function App() {
     {/*
@@ -19,6 +20,7 @@ function App() {
             <Program />
             <Gallery />
             <Testimonial />
+            <Contact />
         </>
     );
 }
