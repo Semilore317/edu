@@ -2,6 +2,10 @@ import { useEffect } from "react";
 import "./Program.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import about from "../../assets/about.png";
+import program_1 from "../../assets/program-1.png";
+import program_2 from "../../assets/program-2.png";
+import program_3 from "../../assets/program-3.png";
 
 const Program = () => {
     useEffect(() => {
@@ -17,13 +21,13 @@ const Program = () => {
 
                 <div className="program__container">
                     <div className="div__img_1">
-                        <img src="./src/assets/program-1.png" alt="Program 1"/>
+                        <img src={program_1} alt="Program 1"/>
                     </div>
                     <div className="div__img_2">
-                        <img src="/src/assets/program-2.png" alt="Program 2"/>
+                        <img src={program_2} alt="Program 2"/>
                     </div>
                     <div className="div__img_3">
-                        <img src="/src/assets/program-3.png" alt="Program 3"/>
+                        <img src={program_3} alt="Program 3"/>
                     </div>
                 </div>
 
@@ -35,7 +39,7 @@ const Program = () => {
             {/* Assign ref for smooth scrolling to the About section */}
             <section className="about" data-aos="fade-right">
                 <div className="about__left">
-                    <img src="/src/assets/about.png" alt="About University"/>
+                    <img src={about} alt="About University"/>
                 </div>
 
                 <div className="about__right">
