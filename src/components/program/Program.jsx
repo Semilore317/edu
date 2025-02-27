@@ -17,7 +17,7 @@ const Program = () => {
 
                 <div className="program__container">
                     <div className="div__img_1">
-                        <img src="/src/assets/program-1.png" alt="Program 1"/>
+                        <img src="./src/assets/program-1.png" alt="Program 1"/>
                     </div>
                     <div className="div__img_2">
                         <img src="/src/assets/program-2.png" alt="Program 2"/>
