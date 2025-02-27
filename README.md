@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-# edu
-=======
-# React + Vite
+# Edu - University Website 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Edu is a modern, responsive university website built using React, AOS (Animate On Scroll), Sass, and Vite. It provides an interactive user experience with smooth animations and a well-structured UI.
 
-Currently, two official plugins are available:
+# 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 1d518bb (...re-initialised repository...)
+  -  React – Component-based UI framework.
+   - Vite – Fast and optimized development environment.
+   - Sass – CSS preprocessor for better styling management.
+- AOS (Animate On Scroll) – Smooth scroll-based animations.
