@@ -20,6 +20,7 @@
 
     @include respond(phone){
       flex-direction: column;
+      height: 60rem;
     }
     div{
       width: 60%;
@@ -64,7 +65,7 @@
 .about{
   display: flex;
   align-items: center;
-  padding-inline: 20rem;
+  padding-inline: 15rem;
   gap: 4rem;
 
   h3{
@@ -88,10 +89,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @include respond(phone){
+      width: 25rem;
+      height: 25rem;
+    }
     img{
       width: 30rem;
       height: 30rem;
       border-radius: 2rem;
+      @include respond(phone){
+        width: 25rem;
+        height: 25rem;
+      }
     }
   }
 
@@ -103,14 +112,15 @@
     }
   }
 
-  @include respond(phone){
-    margin-top: 45rem;
-    flex-direction: column-reverse;
-    padding-inline: 2rem;
-  }
-
   @include respond(tablet-landscape){
     flex-direction: column-reverse;
-    padding-inline: 5rem;
+    padding-inline: 1rem;
   }
+  @include respond(phone){
+    //margin-top: 45rem;
+    flex-direction: column-reverse;
+    padding-inline: 1rem;
+    gap: 1rem;
+  }
+
 }

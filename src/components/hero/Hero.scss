@@ -39,6 +39,11 @@
       font-size: 4rem;
       font-weight: 500;
       line-height: 5rem;
+
+      @include respond(phone){
+        font-size: 2rem;
+        line-height: 3rem;
+      }
     }
 
   }
@@ -47,6 +52,10 @@
     @extend .btn;
     padding-inline: 5rem;
     background: var(--cultured);
+
+    @include respond(phone){
+      padding-inline: 3rem;
+    }
   }
 }
 

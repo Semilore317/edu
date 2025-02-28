@@ -1,7 +1,7 @@
 @use "../../styles/mixins" as *;
 
 nav{
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   top: 0;
@@ -32,7 +32,7 @@ nav{
         text-decoration: underline;
       }
     }
-    @include respond(phone){
+    @include respond(tablet-portrait){
       display: none;
     }
   }
@@ -42,7 +42,7 @@ nav{
   display: none;
   cursor: pointer;
 
-  @include respond(phone){
+  @include respond(tablet-portrait){
     display: flex;
     width: 2rem;
     height: 2rem;
