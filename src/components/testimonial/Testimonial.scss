@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   padding: 50px 20px;
+  overflow: scroll;
 
   h3 {
     color: var(--blue);
@@ -32,7 +33,7 @@
   padding: 20px 0;
 
   @include respond(phone){
-    width: 100vw;
+    width: auto;
   }
 }
 

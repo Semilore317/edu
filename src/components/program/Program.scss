@@ -10,7 +10,7 @@
   padding-block: 2rem;
   &__container{
     width: 70%;
-    height: 40rem;
+    height: auto;
     //display: grid;
     //grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -20,7 +20,7 @@
 
     @include respond(phone){
       flex-direction: column;
-      height: 60rem;
+      height: auto;
     }
     div{
       width: 60%;
@@ -98,8 +98,8 @@
       height: 30rem;
       border-radius: 2rem;
       @include respond(phone){
-        width: 25rem;
-        height: 25rem;
+        width: 20rem;
+        height: 20rem;
       }
     }
   }
